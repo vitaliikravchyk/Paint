@@ -1,0 +1,86 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content {
+    background-color: rgb(231, 231, 231);
+}
+header {
+     background-color: rgb(5, 168, 114);
+        margin-bottom: 6px;
+        box-shadow:  0 0 1em rgb(1, 105, 71);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#cnvBlock {
+    margin: 35px auto;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+#menu {
+    display: flex;
+    
+    justify-content: center;
+}
+#subMenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    margin-top: -12px;
+    display: none;
+    
+}
+li {
+    display: flex;
+    justify-content: center;
+    
+    margin: 5px;
+}
+.sml {
+    font-size: 13px;
+    margin: 0;
+    width: 55px;
+    padding: 0;
+}
+
+#file {
+    width: 115px;
+    opacity: 1;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#fileBtn {
+    width: 115px;
+    
+}
+button {
+    padding: 5px;
+    border: 0px;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#color {
+    margin-right: 10px;    
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
