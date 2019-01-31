@@ -1,1 +1,1 @@
-# (Paint)[https://vitaliykravchyk.github.io/Paint/]
+# [Paint](https://vitaliykravchyk.github.io/Paint/)
